@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    background-color:  #E5E5E5;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn{
+    align-items: center;
+    position: static;
+    display: inline-block;
+    padding: 15px 20px;
+    max-height: 42px;
+    font-size: 12;
+    line-height: 1;
+    text-transform: uppercase;
+    color:  #CC9933;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #CC9933;
+    cursor: pointer;
+}
+
+.header{
+    height: 54px;
+}
+
+.header-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.header-left-list{
+    display: flex;
+}
+
+.header-left-item{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.header-right-list{
+    display: flex;
+}
+
+.section-nav{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.nav-container{
+    background-color: white;
+    border-radius: 10px;
+    border-color: #CC9933;
+}
+
+.nav{
+    display: flex;
+    height: 70px;
+    align-items:center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #CC9933;
+}
+
+.nav-left{
+    background-color: white;
+}
+
+.section-nav-left-list{
+    display: flex;
+    margin-left: 45px;
+    background-color: white;
+}
+
+.section-nav-right-list{
+    display: flex;
+    background-color: white;
+}
+
+.section-nav-item{
+    color: #666;
+    background-color: white;
+}
+
+.section-nav-item:not(:last-child){
+    margin-right: 45px;
+}
+
+.nav-right{
+    background-color: white;
+}
+
+.section-nav-btn{
+    margin-right: 45px; 
+    background-color: white;
+    align-items: center;
+}
+
+.section-offer{
+    padding-bottom: 69px;
+}
+
+.section-header{
+    padding-bottom: 20px;
+}
+
+.section-offer-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-list{
+    display: flex;
+}
+
+.section-offer-item{
+    width: 573px;
+    min-height: 259px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.section-offer-item:nth-child(1){
+    margin-right: 23px;
+    margin-bottom: 23px;
+}
+
+.offer-right{
+    width: 573px;
+    min-height: 540px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.offer-item-header{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.offer-item-price{
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 47px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.offer-item-info{
+    margin-left: 40px;
+    color: #CC9933;
+    background: rgba(0, 0, 0, 0);
+}
+
+.offer-item-header1{
+    margin-left: 40px;
+    margin-top: 211px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.offer-item-price1{
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 47px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.offer-item-info1{
+    margin-left: 40px;
+    color: #CC9933;
+    background: rgba(0, 0, 0, 0);
+}
+
+.svg{
+    background: rgba(0, 0, 0, 0);
+}
+
+.section-header{
+    color: gray;
+    height: 40px;
+    font-size: 40px;
+}
+
+.section-about-us-describtion{
+    width: 888px;
+}
+
+.section-services{
+    padding-bottom: 70px;
+}
+
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.serices-item{
+    flex: 0 0 45%;
+    width: 573px;
+    min-height: 259px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    background-color: white;
+}
+
+.services-describtion{
+    width: 400px;
+    background: white;
+    margin-left: 45px;
+    margin-bottom: 50px;
+}
+
+.services-link{
+    color: #CC9933;
+    background: white;
+    margin-left: 45px;
+}
+
+.services-img{
+    background-color: white;
+}
+
+.white{
+    background-color: white;
+}
+
+.section-advantages{
+    padding-bottom: 70px;
+}
+
+.section-header{
+    padding-bottom: 70px;
+}
+
+.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.advantages-item{
+    width: 275px;
+    min-height: 275px;
+    flex: 1 1 20%;
+    border-radius: 15px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    background-color: white;
+}
+
+.advantages-icon{
+    background: rgba(0, 0, 0, 0);
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+.advantages-describtion{
+    background: rgba(0, 0, 0, 0);
+    margin-left: 45px;
+    margin-bottom: 41px;
+    margin-right: 45px;
+}
+
+.section-accommodation{
+    padding-top: 70px;
+}
+
+.accomodation-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accomodation-item{
+    width: 374px;
+    min-height: 440;
+    flex: 0 0 30%;
+    border-radius: 15px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    background-color: white;
+}
+
+.accomodation-price{
+    background: rgba(0, 0, 0, 0);
+    margin-left: 45px;
+}
+
+.accomodation-name{
+    background: rgba(0, 0, 0, 0);
+    margin-left: 45px;
+}
+
+.accomodation-place{
+    background: rgba(0, 0, 0, 0);
+    margin-left: 45px;
+}
+
+.btn-a{
+    margin-left: 65px;
+    margin-bottom: 50px;
+    position: static;
+    display: inline-block;
+    padding: 15px 20px;
+    max-height: 42px;
+    font-size: 12;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #CC9933;
+}
+
+strong{
+    background: rgba(0, 0, 0, 0);
+}
+
+.accomodation-more-link{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}

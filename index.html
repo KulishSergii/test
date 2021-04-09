@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <div class="header-left">
                 <ul class="header-left-list">
                     <li class="header-left-logo">
-                        <a href="" class="logo"><img src="" alt="Lagoona"></a>  
+                        <a href="" class="logo"><img src="img/logo.png" alt="Lagoona"></a>  
                     </li>
                     <li class="header-left-item">
                         <a href="tel:+74953225448">
@@ -37,7 +39,7 @@
     <main class="main">
 
         <section class="section-nav">
-            <div class="container">
+            <div class="container nav-container">
                 <nav class="nav">
                     <div class="nav-left">
                         <ul class="section-nav-left-list">
@@ -64,10 +66,10 @@
                    <div class="nav-right">
                        <ul class="section-nav-right-list">
                             <li class="section-nav-btn">
-                               <button class="btn-nav">Хочу тур</button>
+                               <button class="btn">Хочу тур</button>
                             </li>
                             <li class="section-nav-btn">
-                                <button class="btn-nav">Обратный звонок</button>
+                                <button class="btn">Обратный звонок</button>
                             </li>
                        </ul>
                    </div>
@@ -78,23 +80,33 @@
         <section class="section-offer">
             <div class="container">
                 <h2 class="section-header">Спецпредложения</h2>
-                    <ul class="section-offer-list">
-                        <li class="section-offer-item-small" style="background-image: url(img/offer1.jpg);">
-                            <h2 class="offer-item-header">Мальдивские острова</h2> 
-                            <p class="offer-item-price">от 55 000 р</p>
-                            <a href="" class="offer-item-info">Подробнее<img src="img/way.png" alt=""></a>                          
+                <div class="offer">
+                    <ul class="offer-list">
+                        <li class="offer-item">
+                            <div class="offer-left">
+                                <ul class="section-offer-list">
+                                    <li class="section-offer-item" style="background-image: url(img/offer1.jpg);">
+                                        <h2 class="offer-item-header">Мальдивские острова</h2> 
+                                        <p class="offer-item-price">от 55 000 р</p>
+                                        <a href="" class="offer-item-info">Подробнее<img src="img/way.svg" alt="" class="svg"></a>                          
+                                    </li>
+                                    <li class="section-offer-item" style="background-image: url(img/offer3.png);">
+                                        <h2 class="offer-item-header">Горящий тур на остров Крит</h2> 
+                                        <p class="offer-item-price">от 30 000 р</p>
+                                        <a href="" class="offer-item-info">Подробнее<img src="img/way.svg" alt="" class="svg"></a>                          
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
-                        <li class="section-offer-item-big" style="background-image: url(img/offer2.png);">
-                            <h2 class="offer-item-header">Номера категории люкс</h2> 
-                            <p class="offer-item-price">от 5 000 р</p>
-                            <a href="" class="offer-item-info">Подробнее<img src="img/way.png" alt=""></a>                          
+                        <li class="offer-item">
+                            <div class="offer-right" style="background-image: url(img/offer2.png);">
+                                <h2 class="offer-item-header1">Номера категории люкс</h2> 
+                                <p class="offer-item-price1">от 5 000 р</p>
+                                <a href="" class="offer-item-info1">Подробнее<img src="img/way.svg" alt="" class="svg"></a>                          
+                            </div> 
                         </li>
-                        <li class="section-offer-item-small" style="background-image: url(img/offer3.png);">
-                            <h2 class="offer-item-header">Горящий тур на остров Крит</h2> 
-                            <p class="offer-item-price">от 30 000 р</p>
-                            <a href="" class="offer-item-info">Подробнее<img src="img/way.png" alt=""></a>                          
-                        </li>
-                    </ul>
+                    </ul>   
+                </div>
             </div>
         </section>
 
@@ -111,20 +123,20 @@
                 <ul class="services-list">
                     <li class="serices-item">
                         <img src="img/serv1.png" alt="" class="services-img">
-                        <a href="" class="services-link">Эксклюзивное обслуживание<img src="img/way.png" alt=""></a>
+                        <p class="white"><a href="" class="services-link">Эксклюзивное обслуживание<img src="img/way.svg" alt="" class="svg"></a></p> 
                         <p class="services-describtion">Равным образом постоянный количественный рост и сфера нашей активности</p>
                     </li>
                     <li class="serices-item">
                         <img src="img/serv2.png" alt="" class="services-img">
-                        <a href="" class="services-link">Аренда банкетных залов<img src="img/way.png" alt=""></a>
+                        <p class="white"><a href="" class="services-link">Аренда банкетных залов<img src="img/way.svg" alt="" class="svg"></a></p>
                         <p class="services-describtion">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм.</p>
                     </li> <li class="serices-item">
                         <img src="img/serv3.png" alt="" class="services-img">
-                        <a href="" class="services-link">Сауны, бассейны, бани, фитнес-залы<img src="img/way.png" alt=""></a>
+                        <p class="white"><a href="" class="services-link">Сауны, бассейны, бани, фитнес-залы<img src="img/way.svg" alt="" class="svg"></a></p>
                         <p class="services-describtion">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                     </li> <li class="serices-item">
                         <img src="img/serv4.png" alt="" class="services-img">
-                        <a href="" class="services-link">Охраняемые автомобильные стоянки<img src="img/way.png" alt=""></a>
+                        <p class="white"><a href="" class="services-link">Охраняемые автомобильные стоянки<img src="img/way.svg" alt="" class="svg"></a></p>
                         <p class="services-describtion">Не следует, однако забывать, что начало повседневной работы по формированию позиции</p>
                     </li>
                 </ul>
@@ -175,88 +187,96 @@
             <div class="container">
                 <h2 class="section-header">Размещение</h2>
                 <ul class="accomodation-list">
-                    <li class="accomodation-item" style="background-image: url(img/acom1.png);">
-                        <p class="accomodation-price">от <strong>4 698 p</strong>/ ночь<img src="img/star.png" alt="У отеля 4 звезды">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/empty.star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom1.png" alt="">
+                        <p class="accomodation-price">от <strong>4 698 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 4 звезды">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/empty.star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona española</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom2.png);">
-                        <p class="accomodation-price">от <strong>5 148 p</strong>/ ночь<img src="img/star.png" alt="У отеля 4 звезды">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/empty.star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom2.png" alt="">
+                        <p class="accomodation-price">от <strong>5 148 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 4 звезды">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/empty.star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona son típicas</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom3.png);">
-                        <p class="accomodation-price">от <strong>6 254 p</strong>/ ночь<img src="img/star.png" alt="У отеля 5 звезд">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom3.png" alt="">
+                        <p class="accomodation-price">от <strong>6 254 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 5 звезд">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona de la guerra</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom4.png);">
-                        <p class="accomodation-price">от <strong>6 320 p</strong>/ ночь<img src="img/star.png" alt="У отеля 5 звезд">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom4.png" alt="">
+                        <p class="accomodation-price">от <strong>6 320 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 5 звезд">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona mentira piadosa</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom5.png);">
-                        <p class="accomodation-price">от <strong>6 457 p</strong>/ ночь<img src="img/star.png" alt="У отеля 4 звезды">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/empty.star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom5.png" alt="">
+                        <p class="accomodation-price">от <strong>6 457 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 4 звезды">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/empty.star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona empujar la creatividad</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom6.png);">
-                        <p class="accomodation-price">от <strong>6 320 p</strong>/ ночь<img src="img/star.png" alt="У отеля 4 звезды">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/empty.star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom6.png" alt="">
+                        <p class="accomodation-price">от <strong>6 320 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 4 звезды">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/empty.star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona el retorno</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom7.png);">
-                        <p class="accomodation-price">от <strong>6 505 p</strong>/ ночь<img src="img/star.png" alt="У отеля 5 звезд">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom7.png" alt="">
+                        <p class="accomodation-price">от <strong>6 505 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 5 звезд">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona mentira piadosa</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item" style="background-image: url(img/acom8.png);">
-                        <p class="accomodation-price">от <strong>6 824 p</strong>/ ночь<img src="img/star.png" alt="У отеля 4 звезды">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/star.png" alt="">
-                            <img src="img/empty.star.png" alt=""></p>
+                    <li class="accomodation-item">
+                        <img src="img/acom8.png" alt="">
+                        <p class="accomodation-price">от <strong>6 824 p</strong>/ ночь <img src="img/star.svg" class="svg" alt="У отеля 4 звезды">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/star.svg" class="svg" alt="">
+                            <img src="img/empty.star.svg" class="svg" alt=""></p>
                         <p class="accomodation-name">Lagoona suerte siguió siempre</p>
                         <p class="accomodation-place">Барселона, Испания</p>
-                        <a href="" class="btn-acc">Номера</a>
+                        <a href="" class="btn btn-a">Номера</a>
                     </li>
-                    <li class="accomodation-item-more" style="background-image: url(img/acom9.png);">
-                        <a href="" class="accomodation-more-link">Посмотреть еще варианты <img src="img/acom-link.png" alt=""></a>
+                    <li class="accomodation-item" style="background-image: url(img/acom9.svg);">
+                        <a href="" class="accomodation-more-link">Посмотреть все варианты <img src="img/acom-link.svg" class="svg" alt=""></a>
                     </li>
                 </ul>
             </div>
